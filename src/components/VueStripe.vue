@@ -28,6 +28,10 @@ export default {
           price: "price_1JerlnGrIZfge3TFwsnCBBTn", // The id of the one-time price you created in your Stripe dashboard
           quantity: 1,
         },
+        {
+          price: "price_1JeQwUGrIZfge3TFvagiQ5Dd", // The id of the one-time price you created in your Stripe dashboard
+          quantity: 3,
+        },
       ],
       successURL: "https://rwvs.netlify.app/",
       cancelURL: "https://rwvs.netlify.app/",
