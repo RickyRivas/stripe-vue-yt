@@ -1,6 +1,5 @@
 <template>
   <div class="main">
-    <router-view></router-view>
     <vue-stripe></vue-stripe>
   </div>
 </template>

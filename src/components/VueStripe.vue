@@ -41,3 +41,19 @@ export default {
   },
 };
 </script>
+<style scoped>
+div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    border: 0;
+    border-radius: .5em;
+}
+</style>
