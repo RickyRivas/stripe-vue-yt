@@ -2,15 +2,17 @@
   <div>
     <h2>Check Out Page</h2>
 
-    <check-out />
+    <stripe-checkout />
+
   </div>
 </template>
 
 <script>
-import checkOut from "./check-out.vue";
+import StripeCheckout from "./Vue-SCheckout.vue";
+
 export default {
   components: {
-    checkOut
+    StripeCheckout
   },
   setup() {
     return {};

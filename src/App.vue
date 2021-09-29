@@ -1,13 +1,13 @@
 <template>
   <div class="main">
-    <vue-stripe></vue-stripe>
+    <vue-checkout/>
   </div>
 </template>
 
 <script>
-import VueStripe from "./components/VueStripe.vue";
+import VueCheckout from "./components/Vue-SCheckout.vue";
 export default {
-  components: { VueStripe },
+  components: { VueCheckout },
   name: "App",
 };
 </script>
