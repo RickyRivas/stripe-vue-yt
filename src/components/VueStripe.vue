@@ -29,8 +29,8 @@ export default {
           quantity: 1,
         },
       ],
-      successURL: "http://localhost:8080",
-      cancelURL: "http://localhost:8080",
+      successURL: "https://rwvs.netlify.app/",
+      cancelURL: "https://rwvs.netlify.app/",
     };
   },
   methods: {
